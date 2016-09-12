@@ -12,4 +12,7 @@ describe("toRoman", function(){
 	it('compute 3 digits', function(){
 		expect(numeral.toRoman(911)).toEqual("CMXI");
 	});
+	it('compute 4 digits', function(){
+		expect(numeral.toRoman(2399)).toEqual("MMCCCXCIX");
+	});	
 });
